@@ -7,14 +7,12 @@ int main(){
 
 	string input;
 
-	const char *string = 
-	"3"
+	int people [] = 
 	"Ahmed"
-	"300"
 	"Suzanne"
-	"500"
 	"Ivona"
-	"450";
+
+	string numbers 
 
 	int numberOfBids; 
 	cin >> numberOfBids;
