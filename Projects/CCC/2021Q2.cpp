@@ -5,9 +5,21 @@ using namespace std;
 
 int main(){
 
-	cin >> numberOfBids;
+	string input;
+
+	const char *string = 
+	"3"
+	"Ahmed"
+	"300"
+	"Suzanne"
+	"500"
+	"Ivona"
+	"450";
 
 	int numberOfBids; 
+	cin >> numberOfBids;
+
+	
 	string people [numberOfBids];
 	string amount [numberOfBids];
 
