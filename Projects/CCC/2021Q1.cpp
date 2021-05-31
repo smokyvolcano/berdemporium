@@ -6,6 +6,8 @@ using namespace std;
 
 int main() {
 
+	cout << "I HAVE GIT NOW YEAH" << endl;
+
 	int b; // temperature at which water boils
 
 	cin >> b;
