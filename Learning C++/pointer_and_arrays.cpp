@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-	string texts[] = {"one", "two", "three"}
+	string texts[] = {"one", "two", "three"};
 
 	string *pTexts = texts;
 
