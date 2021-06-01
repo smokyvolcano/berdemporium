@@ -4,19 +4,18 @@ using namespace std;
 
 int main(){
 
-	string s;
-	cin >> s;
+	string input;
+	getline(cin, input);
 
-
-	int n = s.length();
-	n = getline(s, n);
+	int n = input.length();
 	cout << n << endl;
 
 	char char_array[n+1];
-	strcpy(char_array, s.c_str());
+	strcpy(char_array, input.c_str());
 
-	for (int i = 0; i<n; i++)
+	for (int i = 0; i<n; i++){
 		cout << char_array[i] << " " << flush;
+	}
 	
 	//char space [] = stringInput;
 
