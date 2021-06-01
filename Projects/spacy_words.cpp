@@ -4,12 +4,14 @@ using namespace std;
 
 int main(){
 
-	string input;
-	cin >> input;
 	string s;
-	s = input;
+	cin >> s;
+
 
 	int n = s.length();
+	n = getline(s, n);
+	cout << n << endl;
+
 	char char_array[n+1];
 	strcpy(char_array, s.c_str());
 
