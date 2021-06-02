@@ -18,5 +18,18 @@ int main(){
 	animal.setName("Freddy");
 	animal.speak();
 
+	int value = 8;
+
+	// const int *const pValue = &value;
+	int *pValue = &value;
+
+	cout << *pValue << endl;
+
+	int number = 11;
+	pValue = &number; //error with this: int *const pValue = &value
+	*pValue = 12; //error with this: const int *pValue = &value
+
+	cout << *pValue << endl;
+
 	return 0;
 }
