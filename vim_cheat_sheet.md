@@ -62,6 +62,11 @@
 ## Miscellaneous
 - openterminal:":terminal"
     
+## Tetris
+Steps to play Tetris in Vim:
+1. `:source tetris.vim`
+2. `\te`
+Enjoy!
     
   
   
