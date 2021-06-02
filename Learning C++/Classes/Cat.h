@@ -1,9 +1,4 @@
-class Cat {
-public:
-
-	void speak();
-	void jump();
-};
-
+void speak();
+void jump();
 
 
