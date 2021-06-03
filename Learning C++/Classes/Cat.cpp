@@ -10,3 +10,7 @@ void speak(){
 void jump(){
 	cout << "Jumping to top of bookcase" << endl;
 }
+
+int main() {
+	
+}

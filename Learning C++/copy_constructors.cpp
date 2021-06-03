@@ -9,7 +9,7 @@ public:
 	Animal() { 
 		cout << "Animal created. " << endl;
 		}
-	Animal(const Animal& other) {
+	Animal(const Animal& other): name(other.name) {
 		cout << "Animal created by copying." << endl;
 	};
 	void setName(string name) {this->name = name; };
@@ -27,4 +27,7 @@ int main() {
 
 	animal1.speak();
 	animal2.speak();
+
+	Animal animal3(animal1);
+	animal3.speak();
 }
