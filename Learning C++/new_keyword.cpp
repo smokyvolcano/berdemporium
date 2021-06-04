@@ -11,7 +11,7 @@ public:
 
 	}
 
-	-Animal(){
+	~Animal(){
 		cout << "Destructor called" << endl;
 	}
 
@@ -24,15 +24,13 @@ public:
 	}
 };
 
-Animal *createAnimal(){
-	Animal *a = new Animal;
-	a->setName("Fredo");
-	return 0;
-}
 
 int main() {
-	Animal cat;
-	cat.setName("Freddy");
-	cat.speak();
+	
+	Animal *pCat1 = new Animal();
+	pCat1->setName("Freddy");
+	pCat1->speak();
+	delete pCat1;
+
 	return 0;
-}
+} // cat is out of scope after it hits }
